@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>页面出错啦!~</title>
+<script src="/script/jquery-1.12.0.js" type="text/javascript"></script>
+<script src="/script/jquery.timers.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        setTimeout("lazyGo();", 1000);
+    });
+    function lazyGo() {
+        var sec = $("#sec").text();
+        $("#sec").text(--sec);
+        if (sec > 0)
+            setTimeout("lazyGo();", 1000);
+        else
+            window.location.href = "/index.html";
+    }
+</script>
+
+<!--[if IE 6]>
+  <script type="text/javascript" src="/script/DD_belatedPNG_0.0.8a-min.js"></script>
+  <script>
+    DD_belatedPNG.fix('.login');
+  </script>
+<![endif]-->
+
+
+<style>
+ body{background-color:#daf3fd; margin:0px; padding:0px; font-size:12px;}
+img{ border:0px;}
+.wrap{ width:1000px; height:556px; margin:0 auto; display:table; _position:relative; overflow:hidden; }
+ .cont{  
+position:absolute; 
+width:705px; 
+height:427px; 
+top:50%; 
+left:50%; 
+margin-left:-352px;
+margin-top:-213px;
+background:url(/images/errorbg_03.jpg) no-repeat center center;
+
+}
+a.link{text-shadow:0px 1px 2px white;font-weight:600;color:#3366cc;opacity:0;}
+ 
+
+</style>
+</head>
+
+<body>
+<div class="wrap">
+<div class="cont">
+
+<div style="text-align:center;" >
+  <div style="text-align:center; padding-top:260px; height:45px;"><span id="sec">5</span> 秒后返回首页,如页面未跳转请<a href="/index.html" class="link">点击此处</a></div>
+
+
+</div>
+</div>
+</body>
+</html>

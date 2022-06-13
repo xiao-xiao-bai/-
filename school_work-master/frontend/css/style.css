@@ -1,0 +1,21 @@
+
+.page{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.page a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+}
+.free_page{
+    display: inline;
+
+}
+.page a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+

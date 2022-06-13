@@ -1,0 +1,131 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+body {
+    line-height: 1.5;
+}
+body {
+    font-size: 12px;
+    font-family: '微软雅黑',Arial;
+    color: #333;
+    background: #fff;
+}
+.big_bg{
+    background: url(../images/dbg.jpg) no-repeat center top;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.mainlie2 {
+    width: 1000px;
+    margin: 20px auto;
+    height: 684px;
+}
+.mainlie2 .good2 {
+    width: 244px;
+    height: 496px;
+    margin-top: 188px;
+}
+.mainlie2 div {
+    position: absolute;
+}
+.mainlie2 .good3 {
+    width: 495px;
+    height: 244px;
+    margin-left: 252px;
+    margin-top: 188px;
+}
+.mainlie2 .good4 {
+    width: 242px;
+    height: 244px;
+    margin-left: 758px;
+    margin-top: 188px;
+}
+.mainlie2 .good5 {
+    width: 495px;
+    height: 244px;
+    margin-left: 252px;
+    margin-top: 440px;
+}
+.mainlie2 .good6 {
+    width: 242px;
+    height: 244px;
+    margin-left: 758px;
+    margin-top: 440px;
+}
+.w1000 {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0px auto;
+}
+.biaoti2 {
+    height: 50px;
+    border-bottom: solid 1px #e4393c;
+}
+.f22 {
+    font-size: 22px;
+}
+.home_more {
+    display: block;
+    width: 100px;
+    line-height: 50px;
+    float: right;
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+    text-transform: none;
+}
+.home_sp_box {
+    width: 220px;
+    height: 304px;
+    border: solid 1px #eeeeee;
+    padding: 5px;
+    float: left;
+    margin: 10px 24px 10px 0px;
+    background: #fff;
+}
+
+.home_sp_box .bt {
+    line-height: 20px;
+    margin: 5px auto;
+    width: 96%;
+    height: 40px;
+    font-size: 18px;
+}
+.home_sp_box .jfdh {
+    width: 96%;
+    margin: 0px auto;
+}
+.col_red {
+    color: #e2393c;
+}
+.fb {
+    font-weight: bold;
+}
+
+.col_red {
+    color: #f00;
+}
+.f18 {
+    font-size: 18px;
+}
+.buy_btn {
+    width: 136px;
+    height: 37px;
+    background: #e2393c;
+    border-radius: 2px;
+    line-height: 37px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 15px;
+}

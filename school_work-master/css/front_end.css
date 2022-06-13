@@ -1,0 +1,156 @@
+
+.footer {
+
+    width: 100%;
+
+    min-height: 382px;
+
+    background: #2c3035;
+
+    padding-top: 100px;
+
+}
+
+.footer .footer1 {
+
+    width: 1100px;
+
+    margin: 0 auto;
+
+    min-height: 240px;
+
+}
+
+.footer .footer1 .footer1_xun1 {
+
+    width: 145px;
+
+    margin-right: 40px;
+
+}
+
+.footer .footer1_title {
+
+    height: 35px;
+
+    text-transform: uppercase;
+
+    width: 100%;
+
+    border-bottom: #212427 solid 1px;
+
+    line-height: 35px;
+
+    font-size: 14px;
+
+    color: #FFFFFF;
+
+    font-weight: bolder;
+
+}
+
+.footer .footer1 .footer1_xun2 {
+
+    width: 286px;
+
+    font-size: 12px;
+
+    color: #dddddd;
+
+}
+
+.footer .footer1 .footer1_xun2 span {
+
+    float: left;
+
+    margin-left: 8px;
+
+    color: #dddddd;
+
+}
+
+.footer .footer1 .footer1_xun2 .bdsharebuttonbox {
+
+    float: left;
+
+    margin-left: 20px;
+
+}
+
+.footer .footer1 .footer1_xun2 .bdsharebuttonbox a {
+
+    width: 24px;
+
+    height: 24px;
+
+    margin: 5px 10px 0 0;
+
+    padding: 0;
+
+    border-radius: 24px;
+
+    display: inline-block;
+
+    overflow: hidden;
+
+    background-color: #222629;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.footer .footer1 .footer1_xun2 .bdsharebuttonbox a:hover {
+
+    background-color: #e10808;
+
+}
+
+.footer .footer1 .footer1_xun1 .footer1_xun1_box {
+
+    width: 100%;
+
+    padding-top: 15px;
+
+}
+
+.footer .footer1 .footer1_xun1 .footer1_xun1_box a {
+
+    display: inline-block;
+
+    width: 100%;
+
+    float: left;
+
+    font-size: 12px;
+
+    color: #74787c;
+
+    line-height: 32px;
+
+}
+
+.footer .footer2 {
+
+    width: 100%;
+
+    font-size: 12px;
+
+    color: #74787c;
+
+    border-top: #212427 solid 1px;
+
+    height: 42px;
+
+    line-height: 42px;
+
+}
+
+.footer .footer2 .footer2_nei {
+
+    width: 1100px;
+
+    margin: 0 auto;
+
+}

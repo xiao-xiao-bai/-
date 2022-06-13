@@ -1,0 +1,149 @@
+﻿/*2017*/
+
+.fenlei2 {
+    line-height: 24px;
+}
+
+.fenlei2 ul li {
+    float: left;
+    padding: 1px 10px;
+    white-space: nowrap;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    line-height: 24px;
+}
+
+/*.fenlei dl dd a{ display:block; width:82px; height:24px; float:left; margin-right:6px; margin-bottom:5px; text-align:center; line-height:24px;}
+.fenlei dl dd a:hover{ display:block; width:82px; height:24px; float:left; margin-right:6px; margin-bottom:5px; text-align:center; line-height:24px; background:#06C; color:#fff;}*/
+.fenlei2 ul li.bg {
+    float: left;
+    padding: 1px 10px;
+    white-space: nowrap;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    background: #e4393c;
+    color: #fff;
+}
+
+.fenlei2 ul li.bg a {
+    color: #fff;
+    text-align: center;
+}
+
+.xzrq a {
+    padding: 6px 10px;
+    line-height: 24px;
+}
+
+.xzrq a.bg {
+    background: #00c09e;
+    color: #fff;
+}
+
+
+.tu_box5 {
+    width: 260px;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    margin: 13px;
+    padding: 20px;
+    background: #fafafa;
+    border-top: solid 1px #cacaca;
+}
+
+.tu_box5:hover {
+    width: 260px;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    margin: 13px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-top: solid 1px #ffac13;
+}
+
+.tu_box5 dl {
+    width: 100%;
+}
+
+.tu_box5 dl dt {
+    margin-top: 16px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.tu_box5 dl dt a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.tu_box5 dl dt a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    color: #c80000;
+}
+
+.tu_box5 dl dd {
+    height: 26px;
+    line-height: 26px;
+    color: #888;
+}
+
+
+.pro_box {
+    background: #f7f7f7;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    font-family: "微软雅黑";
+    padding: 20px;
+}
+
+
+.detail_info {
+    border: solid 1px #e1e1e1;
+    padding: 16px 0px;
+    background: #fff;
+}
+
+.detail_info p {
+    margin-bottom: 4px;
+}
+
+.de_tab {
+    height: 38px;
+    line-height: 38px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #e4393c;
+    font-family: "微软雅黑";
+}
+
+.de_tab ul {
+}
+
+.de_tab ul li {
+    float: left;
+    margin: 0px;
+    font-size: 14px;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    color: #111;
+    cursor: pointer;
+}
+
+.de_tab ul li.now {
+    float: left;
+    margin: 0px;
+    font-size: 14px;
+    width: 100px;
+    height: 38px;
+    background: #e4393c;
+    text-align: center;
+    color: #fff;
+}
